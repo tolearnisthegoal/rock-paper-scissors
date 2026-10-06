@@ -22,7 +22,7 @@ function computerChoice(){
 }
 
 function userChoice(){
-    let userNumber = prompt('Rock Paper Scissor').toLowerCase();
+    let userNumber = prompt('Choose (Rock/Paper/Scissor)').toLowerCase();
     switch (userNumber) {
         case 'rock':
             return 'rock';
